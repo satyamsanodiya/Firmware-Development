@@ -12,9 +12,3 @@ In this repo, I've saved my Embedded C learning journey and Device driver develo
 ### 🔹 ESP32
 * **Environment:** Arduino IDE / ESP-IDF
 * **Focus:** Wireless networking, real-time data streaming, and interfacing physical sensors with cloud-based IoT dashboards.
-
-### 🔹 Raspberry Pi Zero
-* **Environment:** Linux OS / Python / C
-* **Focus:** Edge scripting, system-level automation, and high-level protocol bridging to lower-level microcontrollers.
-
----
