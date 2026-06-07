@@ -29,6 +29,10 @@ Traditional embedded debugging often relies on UART peripherals for diagnostic m
 
 ARM Cortex-M processors provide an Instrumentation Trace Macrocell (ITM), which enables lightweight debugging and real-time data tracing through the SWD interface without consuming UART resources.
 
+The default printf() function does not automatically send data to the SWV ITM console.
+The _write() function inside syscalls.c was modified to redirect printf() output through the ARM Cortex-M4 ITM interface.
+This allowed debug messages to be displayed in the STM32CubeIDE SWV ITM Data Console using the SWD interface.
+
 ---
 
 ## Debug Interfaces
